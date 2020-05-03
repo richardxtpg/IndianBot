@@ -24,7 +24,7 @@ async def set_not_afk(event):
         try:
             await borg.send_message(  # pylint:disable=E0602
                 Config.PLUGIN_CHANNEL,  # pylint:disable=E0602
-                "Mine Owner has gone for some Important work he is very busy🥳🥳🥳"
+                "Mei busy hu bc badmei online aauga"
             )
         except Exception as e:  # pylint:disable=C0103,W0703
             await borg.send_message(  # pylint:disable=E0602
@@ -61,15 +61,15 @@ async def _(event):
             afk_time = datetime.datetime.now()  # pylint:disable=E0602
         USER_AFK = f"yes: {reason}"  # pylint:disable=E0602
         if reason:
-            await event.edit(f"Mera Malik Ja Raha Hai, and Reason is {reason}")
+            await event.edit(f"Mei Ja Raha Hu Thodi Der mei aauga on, and Reason is {reason}")
         else:
-            await event.edit(f"Mera Malik Ja Raha Hai")
+            await event.edit(f"Mei Ja Raha Hu Thodi Der mei aauga on")
         await asyncio.sleep(5)
         await event.delete()
         try:
             await borg.send_message(  # pylint:disable=E0602
                 Config.PLUGIN_CHANNEL,  # pylint:disable=E0602
-                f"Mera Malik Ja Raha Hai, and Reason is {reason}"
+                f"Mei Ja Raha Hu Thodi Der mei aauga, and Reason is {reason}"
             )
         except Exception as e:  # pylint:disable=C0103,W0703
             logger.warn(str(e))  # pylint:disable=E0602
