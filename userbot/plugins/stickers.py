@@ -55,7 +55,7 @@ async def _(event):
         packname = f"IndianBhaikeStickers"
         packshortname = "IndianBhai_ke_locker_me"
     else:
-        packname = "@thePredatorGuy's Pack"
+        packname = "@thePredatorGuy Collection"
         packshortname = "xThePredatorGuy"
     await event.edit("`Look dat way,it's a Hot Saxyyy Gurl!\nMeanwhile, Lemme fuck and steal this sticker over hehe ヽ༼ ಠ益ಠ ༽ﾉ`")
 
@@ -70,7 +70,7 @@ async def _(event):
             packname = f"BhaikeAnimeted"
             packshortname = "Bhai_ke_Animated"
         else:
-            packname = "@thePredatorGuy's Pack"
+            packname = "@thePredatorGuy Collection"
             packshortname = "xThePredatorGuy" # format: Uni_Borg_userid
     elif not is_message_image(reply_message):
         await event.edit("Invalid message type")
