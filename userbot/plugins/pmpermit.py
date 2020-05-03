@@ -14,12 +14,12 @@ PREV_REPLY_MESSAGE = {}
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Set ALIVE_NAME in config vars in Heroku"
 USER_BOT_WARN_ZERO = "`You were spamming my President's inbox, henceforth your retarded lame ass has been blocked by my President's A.I.` "
 USER_BOT_NO_WARN = ("[──▄█▀█▄─────────██ \n▄████████▄───▄▀█▄▄▄▄ \n██▀▼▼▼▼▼─▄▀──█▄▄ \n█████▄▲▲▲─▄▄▄▀───▀▄ \n██████▀▀▀▀─▀────────▀▀]\n\n"
-                    "`Hello, This Is` **xTPG Secret Service.**\n"
-                    "**We detect the threat and protect our President./n And We found that you messaged our President"
-                    f"{DEFAULTUSER} personally.**.\n\n"
+                    "**Hello, This is** **xTPG Secret Service.**\n"
+                    "**We detect the Threat and Protect our President.\n And We found that you messaged our President"
+                    " personally.**.\n\n"
                     "`Your ID is `**Unknown**` in our xTPG Database.`\n\n"
-                    "**This Is Regarded As Unappropriate, Illegal Crime And a Threat to my President.**\n\n"
-                    "** So Send `/start` To Start A Valid Conversation. ")
+                    "**Hence this is Regarded As Unappropriate, Illegal Crime And a Threat to my President.**\n\n"
+                    ">>**So Send** `/start` **to Start An Interrogation with xTPG Secret Service** ")
 
 
 if Var.PRIVATE_GROUP_ID is not None:
