@@ -17,6 +17,6 @@ async def amireallyalive(alive):
                      "`Telethon version:` **6.9.0**\n`Python:` **3.7.3**\n"
                      "`Bot Community :` **xTPG**\n\n`I can do this all day.\n`"
                      "**Bot Creator:** @thePredatorGuy\n\n"
-                     "**Following’s not really my style.**\n\n"
+                     "**Following’s not really my style.**\n\n")
                      
 
