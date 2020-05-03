@@ -50,15 +50,14 @@ async def _(event):
         user.first_name = user.id
     pack = 1
     userid = event.from_id
-    #packname = f"IndiaBhai™keStickers"
-    #packshortname = f"IndianBot_{userid}_ns"  # format: Uni_Borg_userid
+
     if userid == 953414679:
         packname = f"IndianBhaikeStickers"
         packshortname = "IndianBhai_ke_locker_me"
     else:
         packname = "@thePredatorGuy's Pack"
-        packshortname = "@thePredatorGuy's Pack"
-    await event.edit("`Look dat way,it's a gurl!\nMeanwhile, lemme kang this stcker over hehe ヽ༼ ಠ益ಠ ༽ﾉ`")
+        packshortname = "xThePredatorGuy"
+    await event.edit("`Look dat way,it's a Hot Saxyyy Gurl!\nMeanwhile, Lemme fuck and steal this sticker over hehe ヽ༼ ಠ益ಠ ༽ﾉ`")
 
     is_a_s = is_it_animated_sticker(reply_message)
     file_ext_ns_ion = "predator.png"
@@ -72,7 +71,7 @@ async def _(event):
             packshortname = "Bhai_ke_Animated"
         else:
             packname = "@thePredatorGuy's Pack"
-            packshortname = "@thePredatorGuy's Pack" # format: Uni_Borg_userid
+            packshortname = "xThePredatorGuy" # format: Uni_Borg_userid
     elif not is_message_image(reply_message):
         await event.edit("Invalid message type")
         return
