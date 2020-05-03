@@ -56,23 +56,23 @@ async def _(event):
         packname = f"IndianBhaikeStickers"
         packshortname = "IndianBhai_ke_locker_me"
     else:
-        packname = f"IndianBot{userid}"
-        packshortname = f"IndianBot_{userid}_ns"
+        packname = "@thePredatorGuy's Pack"
+        packshortname = "@thePredatorGuy's Pack"
     await event.edit("`Look dat way,it's a gurl!\nMeanwhile, lemme kang this stcker over hehe ヽ༼ ಠ益ಠ ༽ﾉ`")
 
     is_a_s = is_it_animated_sticker(reply_message)
-    file_ext_ns_ion = "@IndianArMyGiveaway.png"
+    file_ext_ns_ion = "predator.png"
     file = await borg.download_file(reply_message.media)
     uploaded_sticker = None
     if is_a_s:
         file_ext_ns_ion = "AnimatedSticker.tgs"
         uploaded_sticker = await borg.upload_file(file, file_name=file_ext_ns_ion)
         if userid == 953414679:
-            packname = f"IndiaBhaikeAnimeted"
-            packshortname = "IndianBhai_ke_Animated"
+            packname = f"BhaikeAnimeted"
+            packshortname = "Bhai_ke_Animated"
         else:
-            packname = f"{userid}'s kang pack"
-            packshortname = f"IndianBot_{userid}" # format: Uni_Borg_userid
+            packname = "@thePredatorGuy's Pack"
+            packshortname = "@thePredatorGuy's Pack" # format: Uni_Borg_userid
     elif not is_message_image(reply_message):
         await event.edit("Invalid message type")
         return
@@ -132,7 +132,7 @@ async def _(event):
                 while response.text == FILLED_UP_DADDY:
                     pack += 1
                     prevv = int(pack) - 1
-                    packname = f"{user.first_name}'s IndianBot Vol.{pack}"
+                    packname = "@thePredatorGuy's Pack"
                     packshortname = f"Vol_{pack}_with_{user.first_name}"
                     #if userid == 948408212:
                        # packname = f"{user.first_name}'s IndianBot Vol.{pack}"
